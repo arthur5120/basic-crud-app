@@ -25,8 +25,7 @@ const Footer = () => {
                     <p>Author : {name}</p>
 
                     <span>
-                        <a href='https://br.linkedin.com/in/arthur-s-32b259105'>LinkedIn</a>
-                        <a href='https://instagram.com'>Instagram</a>
+                        <a href='https://br.linkedin.com/in/arthur-s-32b259105'>LinkedIn</a>                        
                         <a href='https://github.com/arthur5120'>Github</a>
                     </span>
                     
