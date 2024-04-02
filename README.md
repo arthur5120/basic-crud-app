@@ -47,7 +47,7 @@ Using Node.js, React, TypeScript, and MongoDB, this succinct full-stack applicat
 | Optimization | Implement techniques such as **Virtualization**, **Debouncing**, **Throttling** to enhance performance and user experience further. |
 | React Features | Incorporate lazy Loading, suspense, useCallback, useMemo and React.memo for example, to optimize rendering and improve efficiency. |
 | Additional Security Measures | **Encryption** methods and **authentication** mechanisms specifically. |
-| Additional Technologies | Integrate technologies like **Sequelize** for ORM, **Axios** for HTTP requests or **Toast** for messages. |
+| Additional Technologies | Integrate technologies like **Sequelize** for ORM, **Axios** for HTTP requests or **React Toastify** for messages. |
 
 -----------------------------------------------------------------------------------------------------------------
 
