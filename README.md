@@ -88,7 +88,7 @@ In the same backend folder, create a *.env* file using a text editor or by renam
  
 ~~~
 PORT="PORT-PLACEHOLDER"
-STR="MONGOOSE-CONNECTION-STRING"
+STR="CONNECTION-STRING"
 ~~~
 
 ## 4. Executing the App
