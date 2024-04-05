@@ -102,7 +102,7 @@ PORT="PORT-PLACEHOLDER"
 STR="CONNECTION-STRING"
 ~~~
 
-## 5. Changing the Default Port
+## 5. Changing the Default Port for the Backend
 
 The app is preconfigured to work with the port **3001**, but you can change that by replacing the port values in the **useFetch.ts** in the following directory 🔽
 
@@ -116,10 +116,11 @@ The app is preconfigured to work with the port **3001**, but you can change that
 ~~~
 npm run dev
 ~~~
-2. Then, with a different terminal, go to the **backend** folder inside the root directory and run the command 🔽
+2. In a separate terminal window, go to the **backend** folder inside the root directory and run the command 🔽
 ~~~
 npm start
 ~~~
+3. That's it, then you just have to open a web browser and navigate to **http://localhost:5173** to view the app.
 -----------------------------------------------------------------------------------------------------------------
 
 # ☑️ Others
