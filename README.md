@@ -4,7 +4,7 @@
 
 Using Node.js, React, TypeScript, and MongoDB, this succinct full-stack application facilitates CRUD operations for managing user data, including name, age, and description. It features an intuitive user interface to achieve that, with some CSS animations as well. The app is divided into two parts and incorporates server-side validation, sanitization, and other related functionalities.
 
-## 3. Technologies and Dependencies
+## 2. Technologies and Dependencies
 
 | Frontend |
 | :---        |
@@ -27,7 +27,7 @@ Using Node.js, React, TypeScript, and MongoDB, this succinct full-stack applicat
   - Typescript 
   - CORS, Express and Node Types 
 
-## 4. Features and Practices Implemented
+## 3. Features and Practices Implemented
 
 | Feature | Description |
 | :----: | :----: |
@@ -39,7 +39,7 @@ Using Node.js, React, TypeScript, and MongoDB, this succinct full-stack applicat
 | Code Splitting | For organizational purposes and improved performance. |
 | Data Sanitization and Validation | Helps in preventing security vulnerabilities and ensures data integrity. |
 
-## 5. Possible Improvements and Corrections 
+## 4. Possible Improvements and Corrections 
 
 | Enhancement | Description |
 | :----: | :----: |
@@ -53,50 +53,73 @@ Using Node.js, React, TypeScript, and MongoDB, this succinct full-stack applicat
 
 # ☑️ How to Run it
 
-The following tutorial provides a brief guide on installing dependencies and running the app using npm, which can be easily adapted for other package managers like Yarn or PNPM for example.
+The following tutorial provides a brief guide on installing dependencies and running the app using **npm**, which can be easily adapted for other package managers like Yarn or PNPM for example. 
 
+## 1. Getting the Application Files
 
-## 1. Setting up the Frontend
+| Direct Download |
+| :---        |
 
-In a directory of your preference, to initialize the project using Vite with the React template and TypeScript support, as well as add routing functionality with the React Router DOM and install remaining packages, run the following commands 🔽
+It is possible to acquire the app files by downloading them directly. To do this, click the green "Code" button in the top-right corner, then click "Download ZIP". Finally, extract the downloaded ZIP file to a directory of your preference.
+ 
+| Git Destkop |
+| :---        |
+
+Alternatively, you can clone the repository using GitHub Desktop. To do this, click "File" > "Clone Repository". Then paste the repository URL, choose a local folder, and click "Clone".
+
+| Git Bash |
+| :---        |
+
+If you are using Git Bash, you can also clone the repository by navigating to the folder you chose and executing the following command, followed by the repository **URL** (Replace **REPOSITORY-URL** with the actual **URL** of the repository) 🔽
+
+~~~~
+git clone REPOSITORY-URL
+~~~~
+
+## 2. Setting up the Frontend
+Now open the terminal and navigate to the directory you chose, where the application folder is located, then to initialize the project using Vite with the React template and TypeScript support, as well as add routing functionality with the React Router DOM and install remaining packages, run the following 🔽
 
 ~~~
-mkdir BasicCRUD
-npm create vite@latest .\BasicCRUD\ -- --template react-swc-ts
-cd BasicCRUD
+cd basic-crud-app
 npm install
-npm install react-router-dom
-npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 ~~~
 
-## 2. Setting up the Backend
+## 3. Setting up the Backend
 
 To install the necessary packages and initialize the TypeScript configuration, along with adding its dependencies and type definitions, execute the commands bellow 🔽
 
 ~~~
-mkdir backend
 cd backend
-npm init
-npm install express express-validator mongoose dotenv cors
-npx tsc --init
-npm install typescript ts-node @types/cors @types/express @types/node
+npm install
 ~~~
 
-## 3. Configuring the Enviromental Variables
+## 4. Configuring the Enviromental Variables
 
-In the same backend folder, create a *.env* file using a text editor or by renaming a regular *.txt* file and changing the extension. Then, add the following content, replacing the placeholders with the server PORT and the connection string for your MongoDB database 🔽
+In the same backend folder, create a *.env* file using a text editor or by renaming a regular *.txt* file and changing the extension. Then, add the following content, replacing the placeholders with the server PORT (The default here is 3001) and the connection string for your MongoDB database 🔽
  
 ~~~
 PORT="PORT-PLACEHOLDER"
 STR="CONNECTION-STRING"
 ~~~
 
-## 4. Executing the App
+## 5. Changing the Default Port
 
-1. After downloading the files, paste them in the BasicCRUD folder, replacing the existing ones.
-3. Now in the root directory, run on the console : **npm run dev**
-4. Then navigate to the backend folder and run the command : **npm start**
+The app is preconfigured to work with the port **3001**, but you can change that by replacing the port values in the **useFetch.ts** in the following directory 🔽
 
+~~~
+\src\utils\hooks\useFetch.ts
+~~~
+
+## 6. Executing the App
+
+1. Open the terminal and navigate to the root directory, usually named **basic-crud-app**, then run on the console 🔽
+~~~
+npm run dev
+~~~
+2. Then, with a different terminal, go to the **backend** folder inside the root directory and run the command 🔽
+~~~
+npm start
+~~~
 -----------------------------------------------------------------------------------------------------------------
 
 # ☑️ Others
