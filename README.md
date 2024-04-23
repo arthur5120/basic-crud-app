@@ -80,7 +80,7 @@ git clone REPOSITORY-URL
 Now open the terminal and navigate to the directory you chose, where the application folder is located, then to initialize the project using Vite with the React template and TypeScript support, as well as add routing functionality with the React Router DOM and install remaining packages, run the following 🔽
 
 ~~~
-cd basic-crud-app
+cd mern-stack-crud-app
 npm install
 ~~~
 
@@ -112,7 +112,7 @@ The app is preconfigured to work with the port **3001**, but you can change that
 
 ## 6. Executing the App
 
-1. Open the terminal and navigate to the root directory, usually named **basic-crud-app**, then run on the console 🔽
+1. Open the terminal and navigate to the root directory, usually named **mern-stack-crud-app**, then run on the console 🔽
 ~~~
 npm run dev
 ~~~
